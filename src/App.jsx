@@ -1,16 +1,9 @@
 import React from 'react';
-import Hero from './components/Hero.jsx';
-import ProductSections from './components/ProductSections.jsx';
-import SaunaGallery from './components/SaunaGallery.jsx';
+import Hero from './components/Hero';
 
 function App() {
-  return (
-    <main>
-      <Hero />
-      <ProductSections />
-      <SaunaGallery />
-    </main>
-  );
+  // Show only the under-construction hero for now
+  return <Hero />;
 }
 
 export default App;
