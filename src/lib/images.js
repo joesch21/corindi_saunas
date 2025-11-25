@@ -1,12 +1,7 @@
-// Update this array with your actual images.
-// Each object should include a public_path (path to the image in the public folder),
-// a category (used for filtering), and optionally a title.
-const images = [
-  {
-    public_path: '/images/placeholder_light_gray_block.png',
-    category: 'Sample',
-    title: 'Sample image',
-  },
-];
+// Image list intentionally left empty while the site is under construction.
+// Add objects here later like:
+// { public_path: '/images/your_image.png', category: 'Sauna', title: 'Beautiful Sauna' }
+
+const images = [];
 
 export default images;

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import images from '../lib/images.js';
 
 function SaunaGallery() {
-  const [filter, setFilter] = useState('All');
+  const [filter, setFilter] = useState('');
 
   const categories = ['All', ...Array.from(new Set(images.map((img) => img.category)))];
 
